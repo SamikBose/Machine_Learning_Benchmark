@@ -1,0 +1,12 @@
+Objective:  
+1. We aim to construct a SVR based formalism to predict non-bonded interaction energy in clusters and condensed phases. 
+2. We develop this method based on a combination of SVR and many body expansion (MBE) of interaction energies. 
+3. We have tested the scheme of exact SVR predictions for water dimer and trimer energies in case of rigid water molecules. 
+4. We have employed this formalism to compute the interaction energies of decamers of rigid water molecules and checked the accuracy of predictions against the QM estimates. 
+
+Starting point: 
+The conﬁguration space of water decamer cluster is obtained from two separate classical NVT simulations at 100K and 300K, 
+using Gromacs software. In this work we are examining the rigid clusters only.  
+Equally spaced 452 snapshots of water decamer are taken from the combined NVT simulation trajectory. 
+This gro file is the starting point of the codes: "" and "". 
+In these two codes, we generate the all possible dimer and trimer data
