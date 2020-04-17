@@ -1,4 +1,4 @@
-fin = open("../dimer_for_ML/100K+300K_452snaps_noPBC_center.gro", "r")
+fin = open("100K+300K_452snaps_noPBC_center.gro", "r")
 lines = fin.readlines()
 length = len(lines)
 numsnap = length/33
