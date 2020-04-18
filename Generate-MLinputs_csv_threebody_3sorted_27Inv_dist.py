@@ -1,13 +1,13 @@
 import numpy as np
 import math
-numsnap = 120*201
-fout1_inv = open("300K-ThreeBodyTerm-3sort-trimer.csv","w")         #Input csv file
+numsnap = 120*452
+fout1_inv = open("100K+300K-ThreeBodyTerm-3sort-trimer.csv","w")         #Output csv file
 fout1_inv.write("f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20,f21,f22,f23,f24,f25,f26,f27,resp\n")
 mean_int_en  = 0.00000000
 tup1 = []
 tup2 = []
 tup3 = []
-for x in xrange(24121,54241):     #This counter can be modified as per the number of omega dimer files.
+for x in xrange(numsnap+1):     #This counter can be modified as per the number of omega dimer files.
         lines = []
         tup1 = []
         tup2 = []
