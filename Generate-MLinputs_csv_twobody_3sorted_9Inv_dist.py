@@ -1,4 +1,4 @@
-numsnap = 20340
+numsnap = 45*452
 fout2 = open("Sorted_typewise-3-class_9Inv-dist_1int-en_dimer.dat","w")
 fout1_inv = open("Sorted_typewise-3-class_9Inv-dist_1int-en_dimer.csv","w")         #Input csv file
 fout1_inv.write("f1,f2,f3,f4,f5,f6,f7,f8,f9,resp\n")
