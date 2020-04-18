@@ -7,7 +7,7 @@ mean_int_en  = 0.00000000
 tup1 = []
 tup2 = []
 tup3 = []
-for x in xrange(numsnap+1):     #This counter can be modified as per the number of omega dimer files.
+for x in xrange(1,numsnap+1):     #This counter can be modified as per the number of omega dimer files.
         lines = []
         tup1 = []
         tup2 = []
